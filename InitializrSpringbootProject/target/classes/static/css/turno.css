@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -29,13 +30,14 @@ body {
 
 .conte_turno {
     margin: auto;
-    width:450px;
-    height: 100%;
+    width: 650px;
+    height: auto;
     border: 1px solid black;
     border-radius: 15px;
     background-color: #dceafc;
     box-shadow: 10px 10px 15px black;
 }
+
 
 .conte_dtsTurno{
     display: flex;
@@ -80,6 +82,7 @@ body {
 
 .inf-pac{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 15px;
 }
@@ -133,26 +136,27 @@ body {
     font-size: 30px;
 }
 
-.input_Nom{
-    text-align: start;
-    margin-left: 10px ;
-    background: transparent;
+
+.inf-pac input{
+    font-size: 18px;
+    width: 600px;
 }
 
-.input_Ape{
-    text-align: end;
+.input_Ape {
+    text-align: center;
+    background: transparent;
+    width: 600px;
+    font-size: 35px;
+}
+
+.input_obr{
+    text-align: center;
     background: transparent;
 }
 
 .body_turnero {
-    margin: auto;
-    width:400px;
-    height: 100%;
-    
-    border-radius: 15px;
-    background-color: #dceafc;
-    box-shadow: 10px 10px 15px black;
-
+    width: 100%;
+    padding: 5px;
 }
 
 .body_turnero form{
@@ -174,11 +178,11 @@ body {
 }
 
 .input_Id-Pro{
-    margin-top: 35px;
+    margin-top: 10px;
 }
 
 .input_NomyApe-Pro{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .input_Ape-Pro{
@@ -186,25 +190,25 @@ body {
 }
 
 .input_Nom-Pro{
-    margin-top: 5px;
+    margin-top: 1px;
 }
 
 .input_Mes_Con{
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 .input_dia_Con{
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 .input_hor_Con{
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 .datos_Prof div{
@@ -223,7 +227,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .datos_fyh label{
@@ -262,11 +266,6 @@ body {
     margin-bottom: 10px;
 }
 
-input:readonly {
-    background-color: black;
-    border: none;
-}
-
 
 input[type="date"].no-permitido {
   background-color: red;
@@ -274,16 +273,6 @@ input[type="date"].no-permitido {
   border: 2px solid red;
 }
 
-body{ /*imagen azul de fondo*/
-    background-image: url(../imagen/fondo.svg);
-    background-repeat:no-repeat;
-    background-position-x:center;
-}
-.footer{
-    width: 100vw;
-    height: 100px;
-    margin-top: 10px
-}
 
 /*  Estilo de Caja Footer */
 
@@ -304,10 +293,6 @@ body{ /*imagen azul de fondo*/
 
 .text-footer p{
     margin:auto;
-}
-
-.footer{
-    /*    background-color: lavenderblush;*/
 }
 
 /*  Estilo de Caja de Iconos */
@@ -370,4 +355,8 @@ body{ /*imagen azul de fondo*/
 
 .boton-v button{
     width: 150px;;
+}
+
+.input_dia_Con li{
+    margin-left: 20px;
 }

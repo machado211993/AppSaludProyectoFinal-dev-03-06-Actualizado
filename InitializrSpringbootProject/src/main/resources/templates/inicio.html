@@ -42,18 +42,11 @@
                                 readonly
                                 style="background-color: transparent; border: none;"
                                 class="form-control input_Ape"
-                                th:value="${session.usuariosession.apellido}" 
+                                th:value="${session.usuariosession.apellido} + ',  ' + ${session.usuariosession.nombre}" 
                                 />
+                            
                         </div>
-                        <div>
-                            <input
-                                type="text"
-                                readonly
-                                style="background-color: transparent; border: none;"
-                                class="form-control input_Nom"
-                                th:value="${session.usuariosession.nombre}"
-                                />
-                        </div>
+                      
                     </div>
                     <div class="info-texto">
                         <h1 class="titulo"> ¡Bienvenido a nuestra plataforma de servicios de salud! </span></h1>
