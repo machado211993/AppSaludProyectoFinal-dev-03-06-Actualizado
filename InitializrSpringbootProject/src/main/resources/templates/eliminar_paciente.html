@@ -9,7 +9,9 @@
 
     </head>
     <body>
-
+        
+        
+        
         <div class="container hero">
 
             <section>
@@ -19,6 +21,16 @@
                         <h1 th:if="${session.usuariosession != null}"  th:text=" '¡ Hola '+ ${session.usuariosession.nombre} + ' !'" >  </h1>
             -->
             <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="align-items-center">
+                <a th:href="@{/}">
+                    <center> <img width="10%" th:src="@{/imagen/eliminar.png}"
+                                  alt="Pagina principal"> </center>
+                </a>
+            </div>
             <form th:action="@{/paciente/eliminado/__${paciente.id}__}" method="POST">
 
                 <div class="form-group row">

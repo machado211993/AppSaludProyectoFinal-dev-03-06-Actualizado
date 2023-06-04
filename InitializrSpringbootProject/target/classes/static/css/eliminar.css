@@ -8,7 +8,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 */
 
 body{ /*imagen azul de fondo*/
-    background-image: url(../imagen/fondo.svg);
+/*    background-image: url(../imagen/fondo.svg);*/
     background-repeat:no-repeat;
     background-position-x:center;
 }

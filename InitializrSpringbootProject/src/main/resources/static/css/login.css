@@ -15,7 +15,8 @@ and open the template in the editor.
 }
 
 body{
-    background-image: url(../imagen/fondo.svg);
+    background-color: #5bc0de;
+/*    background-image: url(../imagen/fondo.svg);*/
     background-repeat:no-repeat;
     background-position-x:center;
 }

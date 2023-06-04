@@ -8,7 +8,8 @@ body{ /*imagen azul de fondo*/
 .footer{
     width: 100vw;
     height: 100px;
-    margin-top: 10px
+    margin-top: 10px;
+    background-color: #d0e9c6; 
 }
 
 /*  Estilo de Caja Footer */
@@ -84,5 +85,5 @@ body{ /*imagen azul de fondo*/
     color: #d8942f;
 }
 .row{
-    background-color: #e3e3e3;
+    background-color: #dceafc;
 }

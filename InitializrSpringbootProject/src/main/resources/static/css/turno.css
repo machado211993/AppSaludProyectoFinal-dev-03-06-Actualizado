@@ -23,7 +23,7 @@ main{
 body {
     width: 100vw;
     font-size: 14px;
-    background-image: url(../imagen/fondo.svg);
+/*    background-image: url(../imagen/fondo.svg);*/
     background-repeat:no-repeat;
     background-position-x:center;
 }

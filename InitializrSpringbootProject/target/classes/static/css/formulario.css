@@ -13,7 +13,8 @@ form{
   
 }
 body{
-    background-image: url(../imagen/fondo.svg);
+    /*background-image: url(../imagen/fondo.svg);*/
+     
     background-repeat:no-repeat;
     background-position-x:center;
     font-size: 14px;
@@ -126,4 +127,7 @@ body{
 
 .botones-v a{
     width: 300px;
+}
+#colorformulario{
+    background-color: #5bc0de;
 }
